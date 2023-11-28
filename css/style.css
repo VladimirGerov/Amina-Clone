@@ -73,11 +73,11 @@ ul {
   justify-content: center;
   align-items: start;
   padding: 0 16px;
-  background: radial-gradient(
+  /*background: radial-gradient(
     at bottom right,
     rgb(71, 71, 71) 0%,
     rgb(0, 0, 0) 100%
-  );
+  );*/
 }
 
 h1 {
@@ -95,7 +95,7 @@ h1 {
   display: block;
 }
 
-.hero-cto {
+.hero-cta {
   text-decoration: none;
   color: var(---text-dark);
   padding: 8px 12px;
@@ -132,13 +132,13 @@ h1 {
 
 .products-text {
   display: flex;
-  alingn-items: center;
+  align-items: center;
 }
 
 .product-header {
   font-size: 56px;
   width: 50%;
-  line_height: 1.2;
+  line-height: 1.2;
 }
 
 .span-block {
